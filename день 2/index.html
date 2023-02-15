@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/slider.css">
+    <link rel="stylesheet" href="./style/white-tam.css">
+    <link rel="stylesheet" href="./style/modal-window.css">
+    <title>My Group</title>
+</head>
+
+<body>
+    <!-- меню -->
+    <div class="menu">
+        <ul align="center">
+            <li><a href="#page1">Developers of web applications</a></li>
+            <li><a href="#page2">What are we doing?</a></li>
+            <li><a href="#page3">We study English</a></li>
+            <li><a href="#page4">Gifts to teachers</a></li>
+            <li><a href="#page5">Beautiful people</a></li>
+            <li><a href="#page6">Computer love</a></li>
+            <li><a href="#page7">Sport</a></li>
+            <li><a href="#page8">Holidays</a></li>
+            <li><a href="#page9">More info</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- шапка -->
+        <img src="./img/rame.png">
+
+
+        <div class="back-1">
+            <p>
+                <input type="checkbox" onchange="changeTheme(this.checked)"> Включить темную тему
+            </p>
+            <h3>Developers of web and multimedia applications</h3>
+        </div>
+
+        <!-- блок 1 -->
+        <div id="page1"></div>
+        <div class="text-with-photo">
+            <ul>
+                <li id="tem">Write code in HTML, CSS and JavaScript</li>
+                <li id="tem">Create and improve services</li>
+                <li id="tem">Participate in the development of web applications</li>
+                <li id="tem">Work with the frontend</li>
+            </ul>
+            <img src="./img/elips_page.png">
+        </div>
+
+        <div id="page2"></div>
+
+        <div class="back-1">
+            <h3>What are we doing?</h3>
+        </div>
+
+        <!-- блок 2 -->
+        <div class="text-with-photo">
+            <img src="./img/veb-razrabotchik 1.png">
+            <ul>
+                <li id="tem">Creates new services and websites</li>
+                <li id="tem">Supports and complements existing</li>
+                <li id="tem">He studies the customer's task</li>
+                <li id="tem">Helps to create an optimal solution</li>
+                <li id="tem">Prepares the code for the frontend and backend, tests it, corrects errors and evaluates the results.</li>
+            </ul>
+        </div>
+
+        <div id="page3"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 3 -->
+        <div class="block-3">
+            <img src="./img/english.png">
+            <div class="block-3-text">
+                <h3 id="tem">We study English in order to write high-quality code and Google the necessary documentation</h3>
+                <p id="tem">~Let's close our eyes to the fact that this text was made in a translator~</p>
+                <a id="tem-a" class="down" href="./img/english.png" download>Download a picture</a>
+            </div>
+        </div>
+
+        <div id="page4"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 4 -->
+        <div class="block-3">
+            <div class="block-3-text">
+                <h3 id="tem">We give teachers gifts for every holiday</h3>
+                <a id="tem-a" class="down" href="./img/prick.png" download>Download a picture</a>
+            </div>
+            <img src="./img/prick.png">
+        </div>
+
+        <div id="page5"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 5 -->
+        <div class="photo-in-my-group">
+            <h3 id="tem">"There are wonderful people in our group"</h3>
+        </div>
+
+        <!-- слайдер фотографий -->
+        <div class="slider middle">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+
+                <div class="slide s1">
+                    <img src="./img/титенок.png" alt="Изображение" class="img">
+                </div>
+                <div class="slide">
+                    <img src="./img/чернышев.png" alt="Изображение" class="img">
+                </div>
+                <div class="slide">
+                    <img src="./img/попов.png" alt="Изображение" class="img">
+                </div>
+                <div class="slide">
+                    <img src="./img/старов.png" alt="Изображение" class="img">
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+            </div>
+        </div>
+        <!--  -->
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 6 -->
+        <div class="block-3">
+            <img src="./img/love.png">
+            <div class="block-3-text">
+                <h3 id="tem">The guys love each other very much</h3>
+                <a id="tem-a" class="down" href="./img/love.png" download>Download a picture</a>
+            </div>
+        </div>
+
+        <div id="page6"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 7 -->
+        <div class="block-3">
+            <div>
+                <h3 id="tem">We really like to study at computers</h3>
+                <a id="tem-a" class="down" href="./img/study.png" download>Download a picture</a>
+            </div>
+            <img src="./img/study.png">
+        </div>
+
+        <div id="page7"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <!-- блок 7 -->
+        <div class="sport-block">
+            <p id="tem">Our group is athletic and takes part in various relay races</p>
+            <div class="sport-block-a">
+                <a id="tem-a" class="down" href="./img/sport 1.png" download>Download_a_picture_1</a>
+                <a id="tem-a" class="down" href="./img/sport 2.png" download>Download_a_picture_2</a>
+                <a id="tem-a" class="down" href="./img/sport 3.png" download>Download_a_picture_3</a>
+            </div>
+            <div class="sport-block-img">
+                <img src="./img/sport 1.png">
+                <img src="./img/sport 2.png">
+                <img src="./img/sport 3.png">
+            </div>
+        </div>
+
+        <div id="page8"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <div class="block-3">
+            <img src="./img/3love.png">
+            <div class="block-3-text">
+                <h3 id="tem">On holidays, always nearby</h3>
+                <a id="tem-a" class="down" href="./img/3love.png" download>Download a picture</a>
+            </div>
+        </div>
+
+        <div id="page9"></div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+
+        <div class="text-info">
+            <p id="tem">Look at the information on the site when you click on the button :3</p>
+            <input type="button" value="POKE" onClick="window.location='./page/info-web.html'">
+        </div>
+
+        <div class="back-1">
+            <h3>---</h3>
+        </div>
+    </div>
+    <img class="end" src="./img/end.png">
+
+
+    <!-- шрифты -->
+    <!-- шрифт 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- шрифт 2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Julee&display=swap" rel="stylesheet">
+
+    <!-- код -->
+    <script src="./code/main.js"></script>
+</body>
+
+</html>

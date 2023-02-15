@@ -1,0 +1,351 @@
+body {
+    background-color: #151313;
+    margin: 0;
+    cursor: url(../img/cursor1.svg), auto;
+}
+
+a:hover {
+    cursor: url(../img/pointer2.svg), auto;
+}
+
+input:hover {
+    cursor: url(../img/pointer2.svg), auto;
+}
+
+button:hover {
+    cursor: url(../img/pointer2.svg), auto;
+}
+
+
+/* content */
+
+.content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* меню */
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    color: aliceblue;
+    position: fixed;
+}
+
+.menu ul li {
+    list-style: none;
+    /* Отображать как строчный элемент */
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Julee';
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-family: 'Julee';
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+
+/* плавный переход по странице */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* шапка */
+
+.back-1 {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    text-align: center;
+}
+
+.back-2 {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    text-align: right;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+
+
+/* кнопка выхода на главную страницу */
+
+.text-info input {
+    color: aliceblue;
+    background-color: #630000;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Julee';
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.text-info input:hover {
+    color: #630000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    width: 220px;
+    height: 70px;
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* соре соре, сайт не работает */
+
+.text {
+    width: 400px;
+    background-color: #ff0000;
+    border-radius: 40px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.text p {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* конец */
+
+.end {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.block-entra h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+.block-entra p {
+    font-family: 'Julee';
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.block-entra p:hover {
+    font-family: 'Julee';
+    font-size: 25px;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+.block-entra {
+    text-align: center;
+}
+
+.input {
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #ffffff;
+    background-color: #630000;
+    border: none;
+    border-radius: 25px;
+}
+
+.input:hover {
+    width: 140px;
+    height: 50px;
+    transition: 0.5s;
+    font-size: 28px;
+    font-family: 'Julee';
+    color: #151313;
+    background-color: #ff0000;
+    border-radius: 0px;
+    border: none;
+}
+
+
+/* социальные сети */
+
+.social {
+    text-align: center;
+}
+
+.VK {
+    background-color: #4680C2;
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+}
+
+.VK:hover {
+    background-color: #093d79;
+    width: 140px;
+    height: 50px;
+    transition: 0.5s;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+}
+
+.site {
+    background-color: #064791;
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+}
+
+.site:hover {
+    background-color: #4c8fdd;
+    width: 140px;
+    height: 50px;
+    transition: 0.5s;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #000000;
+    border: none;
+    border-radius: 0px;
+}
+
+
+/* модальное окно */
+
+.h3-modal {
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.p-modal {
+    font-family: 'Julee';
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.button-modal {
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Julee';
+    color: #ffffff;
+    background-color: #630000;
+    border: none;
+    border-radius: 25px;
+}
+
+.button-modal:hover {
+    width: 140px;
+    height: 50px;
+    transition: 0.5s;
+    font-size: 28px;
+    font-family: 'Julee';
+    color: #151313;
+    background-color: #f96464;
+    border-radius: 0px;
+    border: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: 1s;
+}
+
+.modal .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #151313;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.modal-window {
+    position: fixed;
+    z-index: 2;
+    width: 500px;
+    height: 200px;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    top: 150px;
+    left: 150px;
+}
+
+.close-modal {
+    border: none;
+    background-color: #064791;
+    color: aliceblue;
+    font-family: 'Julee';
+    opacity: 0.6;
+}
+
+.close-modal:hover {
+    /* прозрачность */
+    opacity: 1;
+}
+
+.modal-window h3 {
+    color: #460000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.modal-window p {
+    color: #460000;
+    font-family: 'Julee';
+}
+
+
+/* стиль для массива списка группы */
+
+.group {
+    color: aliceblue;
+    font-family: 'Julee';
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}

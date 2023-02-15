@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/white-tam.css">
+    <link rel="stylesheet" href="../style/modal-window.css">
+    <link rel="stylesheet" href="../style/info-main.css">
+    <title>info</title>
+</head>
+
+<body>
+    <!-- меню -->
+    <div class="menu">
+        <ul align="center">
+            <li><a href="#page1">Entrance</a></li>
+            <li><a href="#page2">What are we doing?</a></li>
+            <li><a href="#page3">We study English</a></li>
+            <li><a href="#page4">Gifts to teachers</a></li>
+            <li><a href="#page5">Beautiful people</a></li>
+            <li><a href="#page6">Computer love</a></li>
+            <li><a href="#page7">Sport</a></li>
+            <li><a href="#page8">Holidays</a></li>
+            <li><a href="#page9">More info</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <!-- шапка -->
+        <img src="../img/rame.png">
+
+        <!-- поле для перехода страницы обратно на главную -->
+        <div class="text-info">
+            <input type="button" value="Main" onClick="window.location='../index.html'">
+        </div>
+
+        <div id="page1"></div>
+
+        <div class="back-2">
+            <p>
+                <input type="checkbox" onchange="changeTheme(this.checked)"> Включить темную тему
+            </p>
+            <h3>Entrance</h3>
+        </div>
+
+        <div class="block-entra">
+            <h3>Admission conditions can be read here:</h3>
+            <input class="input" type="button" value="READ" onClick="window.open('https://www.suvc.ru/?q=node/140')">
+            <p>Take a look at our social networks and you will understand that we are learning great!</p>
+        </div>
+        <div class="social">
+            <input class="VK" class="input" type="button" value="VK" onClick="window.open('https://vk.com/public.suvc_official')">
+            <input class="site" class="input" type="button" value="Site" onClick="window.open('https://www.suvc.ru/')">
+        </div>
+
+        <div class="back-2">
+            <h3>---</h3>
+        </div>
+
+        <!-- модальное окно -->
+        <h3 class="h3-modal">Do you want to know what is in this button?</h3>
+        <p class="p-modal">Then poke at her)</p>
+        <button id="button-modal" class="button-modal">INFO</button>
+
+        <div class="modal" id="modal">
+            <div class="modal-window">
+                <h3>Thanks for poking, you're the best!</h3>
+                <p>Our profession is not the easiest, but very interesting, further down the page you can get to know us</p>
+                <button class="close-modal">CLOSE</button>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+
+        <div class="back-2">
+            <h3>Groupmates</h3>
+        </div>
+
+        <!-- список группы -->
+        <div class="group">
+            <p id="group-spic"></p>
+        </div>
+
+        <img class="end" src="../img/end.png">
+    </div>
+
+
+    <script src="../code/info-main.js"></script>
+
+
+    <!-- шрифты -->
+    <!-- шрифт 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- шрифт 2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Julee&display=swap" rel="stylesheet">
+</body>
+
+</html>

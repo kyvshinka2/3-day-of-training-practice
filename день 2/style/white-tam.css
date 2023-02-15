@@ -1,0 +1,21 @@
+[dark] {
+    --var-bgcolor: #151313;
+    --var-fontcolor: #ffffff;
+    --var-fontcolora: #f00000;
+}
+
+body {
+    background-color: var(--var-bgcolor);
+}
+
+#tem {
+    color: var(--var-fontcolor);
+}
+
+#tem-a {
+    color: var(--var-fontcolor);
+}
+
+#tem-a:hover {
+    color: var(--var-fontcolora);
+}

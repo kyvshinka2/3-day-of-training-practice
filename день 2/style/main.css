@@ -1,0 +1,215 @@
+body {
+    background-color: #f1c9c9;
+    margin: 0;
+    cursor: url(../img/cursor1.svg), auto;
+}
+
+a:hover {
+    cursor: url(../img/pointer2.svg), auto;
+}
+
+input:hover {
+    cursor: url(../img/pointer2.svg), auto;
+}
+
+.content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* меню */
+
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    color: aliceblue;
+    position: fixed;
+}
+
+.menu ul li {
+    list-style: none;
+    /* Отображать как строчный элемент */
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Julee';
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-family: 'Julee';
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+
+/* плавный переход по странице */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* шапка */
+
+.back-1 {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    text-align: right;
+}
+
+.back-1 p {
+    color: #ffffff;
+}
+
+.back-1 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* 1 блок */
+
+.text-with-photo {
+    display: flex;
+    /*расположение элементов слева, в центре, справа*/
+    justify-content: space-between;
+}
+
+.text-with-photo ul li {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* 3 блок */
+
+.block-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-3 img {
+    width: auto;
+    height: 400px;
+}
+
+.block-3-text {
+    padding-left: 50px;
+}
+
+.block-3-text p {
+    color: #4E4C4C;
+    font-family: 'Julee';
+    font-size: 18px;
+}
+
+
+/* блок с фотографиями  */
+
+.photo {
+    word-spacing: 50px;
+    text-align: center;
+}
+
+
+/* блок 7 */
+
+.sport-block-img {
+    word-spacing: 50px;
+    text-align: center;
+}
+
+.sport-block-a {
+    word-spacing: 150px;
+    text-align: center;
+}
+
+.sport-block p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* блок итоговый */
+
+.text-info {
+    text-align: center;
+}
+
+.text-info p {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+.text-info input {
+    color: rgb(0, 0, 0);
+    background-color: #630000;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Julee';
+    font-size: 30px;
+}
+
+.text-info input:hover {
+    color: #630000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    width: 220px;
+    height: 70px;
+    transition: all 0.6s ease-in-out;
+}
+
+.end {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+
+/* ссылки на скачивание картинок */
+
+.down {
+    font-family: 'Julee';
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.down:hover {
+    color: #FF0000;
+}
